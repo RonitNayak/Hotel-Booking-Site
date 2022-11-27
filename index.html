@@ -13,33 +13,33 @@
   <form>
     <div class="div1">
       <label class="firstname">First Name:</label>
-      <input required class="firstname">
+      <input required class="firstnameinput">
       <label class="lastname">Last Name:</label>
-      <input required class="lastname">
+      <input required class="lastnameinput">
       <label class="email">E-Mail:</label>
-      <input type="email" required class="email">
+      <input type="email" required class="emailinput">
       <label class="address">Address:</label>
-      <input required class="address">
+      <input required class="addressinput">
     </div>
     <div class="div2">
-      <label>Rooms</label>
-      <select required>
+      <label class="rooms">Rooms:</label>
+      <select class="roomsinput" required>
         <option value="">Select Number of Rooms</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
       </select>
-      <label>Adults</label>
-        <select required>
+      <label class="adults">Adults:</label>
+        <select class="adultsinput" required>
           <option value="">Select Number of Adults</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
         </select>
-      <label>Nights</label>
-        <select required>
+      <label class="nights">Nights:</label>
+        <select class="nightsinput" required>
           <option value="">Select Number of Nights</option>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -51,7 +51,7 @@
         </select>
     </div>
     <div class="div3">
-      <button action="#">Confirm Reservation</button>
+      <button class="button" action="#">Confirm Reservation</button>
     </div>
   </form>
 </body>
