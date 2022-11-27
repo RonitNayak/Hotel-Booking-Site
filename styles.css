@@ -18,3 +18,11 @@ h3 {
   padding: 10px;
   font-size: 35px;
 }
+
+.div1 {
+  display: block;
+}
+
+.firstname {
+  display: inline-block;
+}
