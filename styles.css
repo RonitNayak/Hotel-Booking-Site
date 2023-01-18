@@ -22,7 +22,7 @@ h3 {
   font-size: 35px;
 }
 
-.div1, .div2, .div3 {
+.personal-details-container, .dropdown-details-container, .button-container {
   display: block;
   text-align: center;
   position: relative;

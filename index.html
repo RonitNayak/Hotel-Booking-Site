@@ -11,47 +11,62 @@
   <h1 class="center"> Three Rivers Resort</h1>
   <h3 class="center"> Pittsburgh's Finest Luxury Destination </h3>
   <form>
-    <div class="div1">
-      <label class="firstname">First Name:</label>
-      <input required class="firstnameinput">
-      <label class="lastname">Last Name:</label>
-      <input required class="lastnameinput">
-      <label class="email">E-Mail:</label>
-      <input type="email" required class="emailinput">
-      <label class="address">Address:</label>
-      <input required class="addressinput">
+    <div class="personal-details-container">
+      <div  class="input-container">
+        <label class="firstname">First Name:</label>
+        <input required class="firstnameinput">
+      </div>
+      <div class="input-container">
+        <label class="lastname">Last Name:</label>
+        <input required class="lastnameinput">
+      </div>
+      <div class="input-container">
+        <label class="email">E-Mail:</label>
+        <input type="email" required class="emailinput">
+      </div>
+      <div class="input-container">
+        <label class="address">Address:</label>
+        <input required class="addressinput">
+      </div>
     </div>
-    <div class="div2">
-      <label class="rooms">Rooms:</label>
-      <select class="roomsinput" required>
-        <option value="">Select Number of Rooms</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-      </select>
-      <label class="adults">Adults:</label>
-        <select class="adultsinput" required>
-          <option value="">Select Number of Adults</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
-      <label class="nights">Nights:</label>
-        <select class="nightsinput" required>
-          <option value="">Select Number of Nights</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-        </select>
-    </div>
-    <div class="div3">
-      <button class="button" action="#">Confirm Reservation</button>
+    <div class="dropdown-details-container">
+      <div class="input-container">
+        <label class="rooms">Rooms:</label>
+          <select class="roomsinput" required>
+            <option value="">Select Number of Rooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+      </div>
+        <div class="input-container">
+          <label class="adults">Adults:</label>
+            <select class="adultsinput" required>
+              <option value="">Select Number of Adults</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+        </div>
+        <div class="input-container">
+          <label class="nights">Nights:</label>
+            <select class="nightsinput" required>
+              <option value="">Select Number of Nights</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+        </div>
+    <div class="button-container">
+      <div class="input-container">
+        <button class="button" action="#">Confirm Reservation</button>
+      </div>
     </div>
   </form>
 </body>

@@ -22,4 +22,4 @@ I learned a bunch about CSS through this project!
 
 ## Author
 
--   **Ronit Nayak** - _Aspiring Developer_ - (insert personal site link here) | [LinkedIn](https://www.linkedin.com/in/ronitnayak1/)
+**Ronit Nayak** - _Aspiring Developer_ - (insert personal site link here) | [LinkedIn](https://www.linkedin.com/in/ronitnayak1/)
