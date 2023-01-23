@@ -60,7 +60,7 @@ button {
   padding: 5px;
 }
 
-.personal-details-container {
+.personal-details-container, .hotel-information-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
